@@ -1,0 +1,46 @@
+{
+    "name": "easy-better-sqlite3",
+    "version": "0.1.0",
+    "description": "The easier and safer better-sqlite3 package.",
+    "keywords": [
+        "nodejs",
+        "node",
+        "javascript",
+        "js",
+        "better-sqlite3",
+        "sql",
+        "sqlite",
+        "sqlite3",
+        "database",
+        "db"
+    ],
+    "homepage": "https://github.com/AlexAnimateMp4/easy-better-sqlite3#readme",
+    "bugs": {
+        "url": "https://github.com/AlexAnimateMp4/easy-better-sqlite3/issues"
+    },
+    "license": "MPL-2.0",
+    "author": {
+        "name": "Alex Animate Mp4",
+        "email": "contact@alexanimatemp4.me",
+        "url": "http://alexanimatemp4.me"
+    },
+    "contributors": [],
+    "files": [
+        ".gitignore",
+        ".npmignore",
+        "CHANGELOG.md",
+        "index.js",
+        "index.min.js",
+        "LICENSE.md",
+        "package.json",
+        "README.md"
+    ],
+    "main": "index.min.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AlexAnimateMp4/easy-better-sqlite3.git"
+    },
+    "dependencies": {
+        "better-sqlite3": "^7.5.3"
+    }
+}
