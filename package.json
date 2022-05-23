@@ -1,6 +1,6 @@
 {
     "name": "easy-better-sqlite3",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "The easier and safer better-sqlite3 package.",
     "keywords": [
         "nodejs",
