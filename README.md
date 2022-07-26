@@ -161,7 +161,12 @@
                     <tr id="readme-docs-INIT-table-body-container-OPTIONS.PATH">
                         <td id="readme-docs-INIT-table-body-param-OPTIONS.PATH">OPTIONS.PATH</td>
                         <td id="readme-docs-INIT-table-body-type-OPTIONS.PATH"><code>String</code></td>
-                        <td id="readme-docs-INIT-table-body-description-OPTIONS.PATH">The database path.</td>
+                        <td id="readme-docs-INIT-table-body-description-OPTIONS.PATH">The name of the database file.</td>
+                    </tr>
+                    <tr id="readme-docs-INIT-table-body-container-OPTIONS.UNSAFE_PATH">
+                        <td id="readme-docs-INIT-table-body-param-OPTIONS.UNSAFE_PATH">OPTIONS.UNSAFE_PATH</td>
+                        <td id="readme-docs-INIT-table-body-type-OPTIONS.UNSAFE_PATH"><code>Boolean</code></td>
+                        <td id="readme-docs-INIT-table-body-description-OPTIONS.UNSAFE_PATH">Whether or not to set the database path to the current path.</td>
                     </tr>
                     <tr id="readme-docs-INIT-table-body-container-CALLBACK">
                         <td id="readme-docs-INIT-table-body-param-CALLBACK">CALLBACK</td>

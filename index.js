@@ -85,7 +85,7 @@ module.exports = async (OPTIONS, CALLBACK) => await new Promise(async (resolve, 
             PATH: await OPTS
         });
         if (await IS_STRING(await OPTS.PATH) == false || await path.extname(await OPTS.PATH).length < 2) OPTS.PATH = `database.sqlite`;
-        const DB = await new better_sqlite3(await path.resolve(await path.join(await process.cwd(), await OPTS.PATH)), await OBJECT_FILTER({
+        const DB = await new better_sqlite3(await path.resolve(await path.join(await OPTS.UNSAFE_PATH == true ? await __dirname : await process.cwd(), await OPTS.PATH)), await OBJECT_FILTER({
             VALUE: await OPTS,
             FILTER: ([key, value]) => key != `PATH`
         }));

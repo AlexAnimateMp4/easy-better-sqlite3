@@ -1,6 +1,6 @@
 {
     "name": "easy-better-sqlite3",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "description": "The easier and safer better-sqlite3 package.",
     "keywords": [
         "nodejs",
@@ -41,6 +41,6 @@
         "url": "https://github.com/AlexAnimateMp4/easy-better-sqlite3.git"
     },
     "dependencies": {
-        "better-sqlite3": "^7.5.3"
+        "better-sqlite3": "^7.6.2"
     }
 }
